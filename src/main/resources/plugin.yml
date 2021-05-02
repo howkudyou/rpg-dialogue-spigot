@@ -1,0 +1,16 @@
+name: RPG-Dialogue
+version: ${project.version}
+main: howkudyou.rpgdialogue.Main
+api-version: 1.13
+prefix: RPG-Dialogue
+authors: [howkudyou]
+commands:
+  choose:
+    description: secret
+    usage: secret
+  diag:
+    description: secret
+    usage: /diag <player> <npc-name> <dialogue-uuid>
+permissions:
+  dialogue.commands.diag:
+    description: /diag command
